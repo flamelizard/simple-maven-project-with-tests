@@ -27,6 +27,7 @@ package test;
 import org.junit.Test;
 
 public class SomeTest extends Base {
+    private String result;
 
     @Test public void test1() {
         run();
